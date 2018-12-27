@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_44dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_left_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_44dp"
+        android:paddingLeft="@dimen/size_27dp"
+        android:paddingTop="@dimen/size_13dp"
+        android:paddingRight="@dimen/size_27dp"
+        android:paddingBottom="@dimen/size_12dp"
+        android:text="&#xe661;"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/iv_right_img"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/size_9dp"
+        android:paddingLeft="@dimen/size_9dp"
+        android:paddingRight="@dimen/size_18dp"
+        android:src="@mipmap/icon_share"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_right_img_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/iv_right_img"
+        android:paddingLeft="@dimen/size_18dp"
+        android:paddingRight="@dimen/size_9dp"
+        android:src="@mipmap/icon_filter"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_middle_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/size_90dp"
+        android:layout_marginRight="@dimen/size_100dp"
+        android:gravity="center"
+        tools:text="安装泛能用能APP"
+        android:textAllCaps="false"
+        android:textColor="@color/gray_333333"
+        android:textSize="@dimen/size_18dp" />
+
+</RelativeLayout>
+
+

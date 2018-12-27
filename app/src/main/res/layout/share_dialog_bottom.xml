@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="@dimen/size_25dp"
+    android:paddingBottom="@dimen/size_25dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/size_75dp"
+            android:layout_height="@dimen/size_75dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/share_bar_codes" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_11dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="扫描二维码"
+                android:textColor="@color/gray_333333"
+                android:textSize="@dimen/size_10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_3dp"
+                android:text="安装泛能用能APP"
+                android:textAllCaps="false"
+                android:textColor="@color/gray_333333"
+                android:textSize="@dimen/size_10dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
